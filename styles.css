@@ -231,8 +231,7 @@ main{
         width: 378px;
     }
     .symbol{
-        position: absolute;
-        top: 1730px;
+       margin-top: 70px;
     }
 }
 @media(max-width:469px){
