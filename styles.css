@@ -20,6 +20,15 @@ main{
      /* padding:5px 0px 20rem; */
      color: white;
 }
+@media(max-width:900px){
+    html,body{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0%;
+        overflow-x: hidden;
+    }
+}
 @media(max-width:500px){
     html,body{
         width: 100%;
@@ -74,7 +83,7 @@ main{
         padding-left: 0;
     }
     .button{
-        padding: 10px 40px;
+        padding: 10px 20px;
     }
     .icons-set{
         padding-right: 0;
@@ -120,7 +129,7 @@ main{
         
     }
     .component h1{
-        font-size: 24px;
+        font-size: 28px;
         line-height: 29px;
        
     }
@@ -191,6 +200,7 @@ main{
     font-size: 40px;
     line-height: 48px;
 }
+
 .group p{
     color: var(--secondary-clr-1);
     max-width: 45ch;
@@ -235,12 +245,20 @@ main{
     font-weight: 500;
     font-size: 64px;
 }
+@media(max-width:900px){
+    .frame-cont{
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 0 2rem;
+    }
+}
 @media(max-width:569px){
     .group h1{
         font-size: 28px;
     }
     .group p{
         font-size: 17px;
+        
     }
     .frame-cont{
         flex-direction: column;
@@ -250,13 +268,24 @@ main{
         width: 378px;
     }
     .symbol{
-       margin-top: 70px;
+       margin-top: -8px;
+       padding: 2rem ;
+    }
+    .align{
+        margin-top: -1rem;
+    }
+    .text-width{
+        max-width: 35ch;
+        margin-inline: auto;
     }
 }
 @media(max-width:469px){
     .frame{
         width: 300px; 
     }
+}
+@media(max-width:539px){
+    
 }
 .digital{
     display: flex;
@@ -302,6 +331,11 @@ main{
     color: var(--primary-clr-1);
     font-size: 25px;
 
+}
+@media(max-width:900px){
+    .digital{
+        flex-direction: column;
+    }
 }
 @media(max-width:567px){
     .digital{
@@ -392,18 +426,28 @@ main{
 .semi-footer{
     padding: 8rem;
 }
+@media(max-width:900px){
+    .world-map{
+        left: -25%;
+    }
+}
 @media(max-width:568px){
     .world{
         text-align: center;
     }
     .world-map{
-        width: 400px;
-        left: -1.5rem;
+        width: 380px;
+        left: -15%;
     }
     .semi-footer{
-        padding: 5rem;
+        padding: 5rem 1rem;
     }
-    
+    .text-world p{
+       max-width: 35ch; 
+    }
+    .safe img{
+        width: 350px;
+    }
 }
 footer{
     background: var(--secondary-clr-1);
