@@ -72,10 +72,12 @@ main{
     background: #FFFFFF;
     color: #FF9502;
 }
-@media(max-width:500px){
+@media(max-width:780px){
     .icons-nav{
         display: none;
     }
+}
+@media(max-width:500px){
     .logo{
         width: 10rem;
     }
@@ -124,12 +126,12 @@ main{
     .container{
         align-items: center;
         justify-content: center;
-        padding: 0;
+        padding: 0rem 1rem;
         /* margin-inline: auto; */
         
     }
     .component h1{
-        font-size: 28px;
+        font-size: 25px;
         line-height: 29px;
        
     }
@@ -188,6 +190,11 @@ main{
     }
     .btn{
         padding: 15px 40px; 
+    }
+}
+@media(max-width:400px){
+    .container-2 h2{
+        font-size: 19px;
     }
 }
 .group{
